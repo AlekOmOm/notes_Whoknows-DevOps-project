@@ -86,7 +86,7 @@ BACKEND_INTERNAL_PORT=92
 RUST_LOG=debug
 DATABASE_URL=sqlite:/app/data/whoknows.db?mode=rwc
 SQLX_OFFLINE=TRUE
-SESSION_SECRET_KEY=b59a8ecb692e66a1de06afad00dffaa77a8a922c7b54275c2b88662419c04e68
+SESSION_SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Frontend Configuration
 FRONTEND_INTERNAL_PORT=91
