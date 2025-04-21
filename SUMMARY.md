@@ -10,7 +10,10 @@ notes_Whoknows-DevOps-project/
 ├── 01-project-setup-architecture.md        # Project setup and architecture overview
 │   └── 01a-repository-structure.md         # Details on repository organization
 ├── 02-rust-backend-development.md          # Rust backend development overview
-│   └── 02a-actixweb-framework.md           # ActixWeb implementation details
+│   ├── 02a-actixweb-framework.md           # ActixWeb implementation details
+│   ├── 02b-database-integration.md         # Database integration with SQLx
+│   ├── 02c-api-design.md                   # API design principles and patterns
+│   └── 02d-testing-strategies.md           # Testing approaches for Rust backends
 ├── 03-ci-cd.md                             # CI/CD overview
 │   └── 03b-cd-workflow-design.md           # CD workflow design details
 ├── 04-docker-containerization.md           # Docker and containerization overview
@@ -28,8 +31,10 @@ notes_Whoknows-DevOps-project/
 
 ### Rust Backend Development
 - Core concepts of Rust backend development
-- Detailed exploration of ActixWeb framework implementation
-- Covers handler patterns, middleware, and app structure
+- ActixWeb framework implementation and patterns
+- SQLx database integration for type-safe queries
+- REST API design principles and implementation
+- Minimalist testing strategies for Rust backends
 
 ### Continuous Integration/Continuous Deployment
 - CI/CD pipeline structure and workflow
@@ -60,17 +65,15 @@ notes_Whoknows-DevOps-project/
 
 6. **Security Focus**: Proper handling of authentication, secrets, and security concerns throughout the system.
 
-## Future Additions
+## Completed Additions
 
-The repository could be enhanced with additional notes on:
+We've successfully added the previously identified "Future Additions":
 
-1. **Database Integration**: Deeper exploration of SQLx usage and patterns
+1. **Database Integration**: Deep exploration of SQLx usage and patterns
 2. **API Design**: RESTful API design principles in Rust
 3. **Testing Strategies**: Approaches to testing Rust web applications
-4. **GitHub Actions Details**: More on workflow syntax and patterns
-5. **Container Registry Management**: GHCR usage and best practices
-6. **Deployment Strategies**: Server setup and deployment patterns
-7. **Security Practices**: Detailed security considerations and implementations
+
+These topics now have dedicated notes that cover implementation patterns, challenges, and practical examples.
 
 ## Development Principles
 
@@ -82,3 +85,4 @@ Throughout the notes, several core principles emerge:
 4. **Immutable Artifacts**: Creating deterministic, traceable deployments
 5. **Security By Design**: Security considerations at all levels
 6. **Observability**: Proper logging and monitoring hooks
+7. **Simplicity**: Focusing on straightforward, maintainable patterns
